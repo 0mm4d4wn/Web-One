@@ -36,7 +36,7 @@
         </div>
       <?php endif; ?>
 
-      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner more">
           <?php print $breadcrumb; ?>
           <?php if ($page['highlighted']): ?><div id="highlighted"><?php print render($page['highlighted']); ?></div><?php endif; ?>
           <a id="main-content"></a>
